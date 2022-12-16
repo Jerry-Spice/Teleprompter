@@ -31,8 +31,8 @@ class Window(object):
         parse_script(self.fileEntry.get())
         result = run_teleprompter()
         # print(result)
-        if result == "quitted":
-            self.quitting = True
+        # if result == "quitted":
+            # self.quitting = True
 
     def update(self):
         self.root.update()
